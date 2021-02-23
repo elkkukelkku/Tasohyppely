@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 167513232}
   - component: {fileID: 167513231}
   m_Layer: 0
-  m_Name: Player_walk_1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -369,6 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  rb2D: {fileID: 167513233}
 --- !u!70 &167513232
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -405,7 +406,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &167513234
 SpriteRenderer:
   m_ObjectHideFlags: 0
