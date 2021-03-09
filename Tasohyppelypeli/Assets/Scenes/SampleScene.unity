@@ -370,6 +370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   rb2D: {fileID: 167513233}
+  facing: 1
+  canMove: 1
 --- !u!70 &167513232
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -628,7 +630,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.33, y: 7.52, z: -10}
+  m_LocalPosition: {x: 2.0291924, y: 4.9971094, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1698,8 +1700,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 104160323}
-  m_Follow: {fileID: 104160323}
+  m_LookAt: {fileID: 167513235}
+  m_Follow: {fileID: 167513235}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -1723,7 +1725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054558491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.33, y: 7.52, z: -10}
+  m_LocalPosition: {x: 2.0291924, y: 4.9971094, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 95906933}
